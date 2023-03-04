@@ -1,3 +1,4 @@
+# cuda-trainer
 It's a generic CUDA trainer machine which compatible with
     - python3
     - pip
@@ -6,6 +7,8 @@ It's a generic CUDA trainer machine which compatible with
     - torch
     - scikit-learn
     - etc.
+
+See also: https://github.com/fethigurcan/mlflow-trainer
 
 To build
 ```bash
@@ -26,3 +29,4 @@ To test in container (with GPU)
 ```bash
 mlflow run https://github.com/fethigurcan/yargitay-gputest.git
 ```
+
