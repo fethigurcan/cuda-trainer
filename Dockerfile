@@ -1,4 +1,4 @@
-FROM nvidia/cuda:12.0.1-runtime-ubuntu22.04
+FROM nvidia/cuda:11.7.1-runtime-ubuntu22.04
 
 RUN apt update && \
     apt install git curl wget python3 pip -y
